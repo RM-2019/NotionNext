@@ -334,6 +334,8 @@ const nextConfig = {
     const pages = { ...defaultPathMap }
     delete pages['/sitemap.xml']
     delete pages['/auth']
+    delete pages['/zh-CN/oops']  // 删掉报错的 oops 页面
+delete pages['/en/oops']     // 防止英文版本也报错（可选）
     return pages
   },
   publicRuntimeConfig: {
