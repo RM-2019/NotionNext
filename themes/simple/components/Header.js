@@ -3,7 +3,6 @@ import { siteConfig } from '@/lib/config'
 import SmartLink from '@/components/SmartLink'
 import CONFIG from '../config'
 import SocialButton from './SocialButton'
-
 /**
  * 网站顶部
  * @returns
